@@ -11,7 +11,7 @@ const Header = () => {
   );
   return (
     <div>
-      <div className="navbar bg-base-100 fixed z-10 bg-opacity-5 text-white">
+      <div className="navbar bg-black fixed z-20 bg-opacity-15 text-white container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +37,10 @@ const Header = () => {
              {navMenu}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Bistro Boss</a>
+          <div className="flex justify-start items-center">
+          <img src="https://i.ibb.co/Bt4QTWM/Bisto-boss.png" className="w-16" alt="" />
+          <a className="text-xl">Bistro Boss</a>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -45,7 +48,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <button className="btn btn-primary">Buy Now</button>
         </div>
       </div>
     </div>

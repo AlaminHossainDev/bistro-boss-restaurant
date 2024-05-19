@@ -1,0 +1,4 @@
+
+uses technology
+
+1. npm i swiper
