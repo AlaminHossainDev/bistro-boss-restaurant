@@ -14,3 +14,25 @@
 .swiper-pagination-bullet-active {
   background: #007aff;
 }
+
+/* banner carosel */
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel .slider-wrapper {
+  margin: 0 auto; /* Center the main carousel */
+}
+
+.carousel .thumbs-wrapper {
+  display: flex;
+  justify-content: center; /* Center the thumbnails */
+}
+
+.carousel .thumbs {
+  display: flex;
+  justify-content: center;
+}

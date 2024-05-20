@@ -10,7 +10,7 @@ const Header = () => {
     </>
   );
   return (
-    <div>
+    <div className="!w-full">
       <div className="navbar bg-black fixed z-20 bg-opacity-15 text-white container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">

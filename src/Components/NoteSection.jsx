@@ -9,7 +9,7 @@ const NoteSection = () => {
         }}
       >
         <div className=""></div>
-        <div className="hero-content text-center bg-white w-2/3 p-20">
+        <div className="hero-content text-center bg-white md:w-2/3 p-20 rounded-lg">
           <div className="max-w-md">
             <h1 className="mb-5 lg:text-5xl font-bold">Bistro Boss</h1>
             <p className="mb-5">
