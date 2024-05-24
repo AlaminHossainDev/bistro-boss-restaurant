@@ -2,3 +2,5 @@
 uses technology
 
 1. npm i swiper
+
+2. npm i react-helmet-async

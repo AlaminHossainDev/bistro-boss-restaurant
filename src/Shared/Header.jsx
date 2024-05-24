@@ -1,11 +1,30 @@
+import { Link } from "react-router-dom";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+
+
 const Header = () => {
   const navMenu = (
     <>
       <li>
-        <a>Item 1</a>
+        <Link to="/">
+          <a>Home</a>
+        </Link>
       </li>
       <li>
-        <a>Item 3</a>
+        <Link to="/menu">
+          <a>Our Menu</a>
+        </Link>
+      </li>
+      <li>
+        <Link to="/order">
+          <a>order</a>
+        </Link>
+      </li>
+      <li>
+        <Link to="/login">
+          <a>Login</a>
+        </Link>
       </li>
     </>
   );
@@ -13,7 +32,7 @@ const Header = () => {
     <div className="!w-full">
       <div className="navbar bg-black fixed z-20 bg-opacity-15 text-white container mx-auto">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown text-black">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,18 +53,22 @@ const Header = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-             {navMenu}
+              {navMenu}
             </ul>
           </div>
           <div className="flex justify-start items-center">
-          <img src="https://i.ibb.co/Bt4QTWM/Bisto-boss.png" className="w-16" alt="" />
-          <a className="text-xl">Bistro Boss</a>
+            <Link to="/">
+              <img
+                src="https://i.ibb.co/Bt4QTWM/Bisto-boss.png"
+                className="w-16"
+                alt=""
+              />
+              <a className="text-xl">Bistro Boss</a>
+            </Link>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-          {navMenu}
-          </ul>
+          <ul className="menu menu-horizontal px-1">{navMenu}</ul>
         </div>
         <div className="navbar-end">
           <button className="btn btn-primary">Buy Now</button>
