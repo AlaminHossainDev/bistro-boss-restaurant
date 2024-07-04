@@ -1,8 +1,31 @@
-# React + Vite
+# BistroBoss
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BistroBoss is a modern restaurant management system designed to streamline food ordering and management processes. It leverages a tech stack including Tailwind CSS, React, MongoDB, Firebase, and Express.js to deliver a seamless user experience.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User-friendly Interface:** Easily browse menus, select items, and place orders.
+  
+- **Real-time Updates:** Stay informed with real-time order status updates.
+  
+- **Customizable Menu:** Flexible menu management with MongoDB.
+  
+- **Secure Authentication:** Firebase ensures safe login and registration.
+  
+- **Order Management:** Efficiently manage orders and analyze sales trends.
+  
+- **Responsive Design:** Tailwind CSS and React for a responsive experience.
+  
+- **Scalability:** Built on Express.js and MongoDB for scalable operations.
+
+## Technologies Used
+
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Express.js
+- **Database:** MongoDB, Firebase
+
+## Future Enhancements
+
+- Payment gateway integration
+- Advanced analytics and reporting
+- Loyalty programs and promotions
